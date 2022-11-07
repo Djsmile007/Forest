@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.header-section{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.719)) ,url(./family\ pic2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar a{
+    justify-content: space-between;
+    /* align-items: center; */
+    text-decoration: none;
+    padding: 15px 5%;
+}
+.display{
+    display: flex;
+}
+.clr-white{
+    color: white;
+}
+.nav-bar a h3:hover{
+    padding: 5px 5%;
+    background-color: white; 
+    color: black; 
+}
+.nav-bar a p:hover{
+    padding: 5px 5%;
+    background-color: white; 
+    color: black; 
+}
+.hearder-content{
+    text-align: center;
+    padding-top: 10%;
+}
+.hearder-content h2{
+    width: 300px;
+    margin: auto;
+}
+
+.hearder-content button{
+    margin: 25px;
+    padding: 10px 5%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 128, 49, 0.705);
+    color: white;
+}
+.hearder-content button:hover{
+    background-color: black;
+    color: greenyellow;
+}
+.socialmedia-icons a{
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+.socialmedia-icons a:hover{
+    background-color: green;
+}
+
+.section-top ul{
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 25px 0;
+    list-style: none;
+    margin-top: 18%;
+
+}
+
+    .cards-section{
+        text-align: center;
+        margin-top: 4em;
+    
+    }
+    .cards-section h1{
+    
+    }
+
+    .cards{text-align: center;
+    }
+    .footer-sec{
+        background-color: black;
+        margin-top: 5em;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    @media screen and (max-width: 460px){
+        .nav-bar a{
+            flex-direction: column;
+            text-align: center;
+        }
